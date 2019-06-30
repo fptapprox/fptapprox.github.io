@@ -46,7 +46,7 @@
 <b>Directed Steiner Network:</b> Given a digraph \(G=(V,E)\) and a set of terminal pairs \(T=\{(s_i, t_i)\ :\ i\in [k]\}\) is there a set \(H\subseteq V\) of size \(\leq p\) such that \(G[H]\) has an \(s_i \leadsto t_i\) path for each \(i\in [k]\)<br>
 <b>Algorithm:</b> \(k^{1/2+\epsilon}\)-approximation in polynomial time for every \(\epsilon>0\) time <a href="#CEGS11" style="color: #0000ff">  [CEGS11, FKN12]</a> <br>
 <b>Lower Bound:</b> No \((k^{1/4-o(1)})\)-approximation in \(f(k)\cdot n^{O(1)}\) time (for any function \(f\)) under Gap-ETH <a href="#DM18" style="color: #0000ff">  [DM18]</a> <br>
-</li>
+<b>Special cases:</b> When the input graph is bidirected, i.e., for every edge \(u\rightarrow v\) the reverse edge \(v\rightarrow u\) is also present and moreover has same weight, then there is an \(2\)-approximation in \(2^{k\log k}\cdot n^{O(1)}\) time. On the lower bound side, it is known there is a constant \(\epsilon>0\) such that there is no \((1+\epsilon)\)-approximation in \(f(k)\cdot n^{O(1)}\) time (for any function \(f\)) under Gap-ETH <a href="#CFM18</li>
 
 <br>
 
